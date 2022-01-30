@@ -21,11 +21,6 @@ class MyDocument extends Document {
         <Head>
           <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
           <meta name='application-name' content='App' />
-          ...
-          {/* <script
-            async
-            src='https://maps.googleapis.com/maps/api/js?key=AIzaSyB4PYjvrGpT3dlTXb3BQY3JhLslRngDWHU&libraries=places'
-          ></script> */}
         </Head>
         <body>
           <Main />

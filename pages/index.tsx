@@ -64,7 +64,7 @@ const Home: NextPage = () => {
         </div>
 
         <Script
-          src='https://maps.googleapis.com/maps/api/js?key=AIzaSyB4PYjvrGpT3dlTXb3BQY3JhLslRngDWHU&v=3.exp&libraries=geometry,drawing,places'
+          src={`https://maps.googleapis.com/maps/api/js?key=${process.env.KEY}=3.exp&libraries=geometry,drawing,places`}
           strategy='beforeInteractive'
         />
       </ErrorBoundary>
